@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: flex;
+    padding: 10px;
+    border-radius: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e4e7e7;
+    text-align: center;
+    color: #262626;
+}
+#title {
+    font-size: 2.5rem;
+    color: #333;
+    font-family: 'Dosis';
+    margin-bottom: 0;
+}
+
+#img-div {
+    padding: 12px;
+    margin: 0 0px 10px;
+    background-color: #FFF;
+}
+
+#image {
+    max-width: 880px;
+    width: 100%;
+    height: auto;
+}
+
+#image-caption {
+    font-size: 1rem;
+    width: 100%;
+}
+
+#tribute-title {
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+
+#tribute-info {
+    text-align: left;
+    padding: 10px 10vw;
+    font-size: 1rem;
+}
+
+#tribute-info li {
+    padding: 10px 0 10px;
+}
+
+#quote {
+    padding: 20px;
+    text-align: left;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+#tribute-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+
+@media(min-width: 576px) {
+    #main {
+        padding: 10px 0px;
+        margin: 40px 10px;
+        border-radius: 1%;
+    }
+    #img-div {
+        margin: 0 15px 10px;
+    }
+}
+
+@media(min-width: 768px) {
+    #tribute-info {
+        padding: 10px 20vw;
+    }
+    #quote {
+        padding: 10px 20vw;
+    }
+    footer {
+        padding: 10px 30px;
+    }
+}
+

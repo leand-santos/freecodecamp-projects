@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 20vw;
+    background-color: #212129;
+    color: #FFF;
+}
+
+#title {
+    text-align: center;
+    margin: 10px 0 0;
+    font-size: 2.5rem;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#suvery-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    background-color: #323949;
+    border-radius: 2%;
+    width: 80vw;
+    max-width: 800px;
+    align-self: center;
+    padding: 5vh 5vw;
+}
+
+#suvery-form > label {
+    margin: 40px 0 1.0vh;
+}
+
+#dropdown{
+    padding: 2px;
+}
+
+.row-input {
+    margin: 5px 0;
+    display: flex;
+    align-content: center;
+}
+
+.row-input label {
+    margin-left: 10px;
+}
+
+.text-input {
+    padding: 8px;
+    font-size: 0.9rem;
+}
+
+#submit-button {
+    color: #FFF;
+    background-color: #37af65;
+    padding: 10px;
+    margin: 30px 0;
+    border-width: 0;
+}
+
+#submit-button:hover {
+    color: #000;
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+}
+
